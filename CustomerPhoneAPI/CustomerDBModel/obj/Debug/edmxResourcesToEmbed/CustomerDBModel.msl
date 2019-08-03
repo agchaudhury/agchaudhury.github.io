@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ArupTestDatabaseModelStoreContainer" CdmEntityContainer="ArupTestDatabaseEntities">
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="ArupTestDatabaseModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="Cust_ID" ColumnName="Cust_ID" />
+          <ScalarProperty Name="Cust_Name" ColumnName="Cust_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerPhones">
+      <EntityTypeMapping TypeName="ArupTestDatabaseModel.CustomerPhone">
+        <MappingFragment StoreEntitySet="CustomerPhone">
+          <ScalarProperty Name="Cust_Phone_ID" ColumnName="Cust_Phone_ID" />
+          <ScalarProperty Name="Cust_ID" ColumnName="Cust_ID" />
+          <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
