@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using CustomerDBModel;
@@ -38,12 +39,11 @@ namespace CustomerPhoneAPI.Models.Services
 
         public CustomerDetails AddPhoneNumberOfCustomer(CustomerPhone custPhone)
         {
-            var dataCust = db.Customers.FirstOrDefault(x => x.Cust_ID == custPhone.Cust_ID);
-
             db.CustomerPhones.Add(custPhone);
             db.SaveChanges();
 
             var dataPhone = db.CustomerPhones.Where(x => x.Cust_ID == custPhone.Cust_ID).ToList();
+            var dataCust = db.Customers.FirstOrDefault(x => x.Cust_ID == custPhone.Cust_ID);
 
             return GetCustomerDetails(dataCust, dataPhone);
         }
@@ -53,8 +53,7 @@ namespace CustomerPhoneAPI.Models.Services
             var dataCust = db.Customers.FirstOrDefault(x => x.Cust_ID == custPhone.Cust_ID);
             var dataPhone = db.CustomerPhones.FirstOrDefault(x => x.Cust_Phone_ID == custPhone.Cust_Phone_ID);
 
-            dataPhone.Phone_Number = custPhone.Phone_Number;
-            dataPhone.Active = custPhone.Active;
+            db.Entry(custPhone).State = EntityState.Modified;
             db.SaveChanges();
 
             var newDataPhone = db.CustomerPhones.Where(x => x.Cust_ID == custPhone.Cust_ID).ToList();

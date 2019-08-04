@@ -1,0 +1,49 @@
+﻿@using NintexCustomerUI.Models
+@model Customer
+@{
+    ViewData["Title"] = "Customer Detail";
+}
+
+<h2>Customer Detail for @Model.Cust_Name</h2>
+
+@Html.ActionLink("Create New", "CreatePhone", new { id = Model.Cust_ID })
+
+<table class="table">
+    <tr>
+        <th>
+            Phone Id
+        </th>
+        <th>
+            Phone Number
+        </th>
+        <th>
+            Is Active
+        </th>
+        <th/>
+        <th/>
+    </tr>
+
+    @foreach (var phone in Model.Cust_Phone)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(x => phone.Cust_Phone_ID)
+            </td>
+            <td>
+                @Html.DisplayFor(x => phone.Phone_Number)
+            </td>
+            <td>
+                @Html.DisplayFor(x => phone.Active)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "EditPhone", new { id = phone.Cust_ID, phoneId = phone.Cust_Phone_ID })
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "DeletePhone", new { id = phone.Cust_ID, phoneId = phone.Cust_Phone_ID })
+            </td>
+        </tr>
+    }
+</table>
+
+@Html.ActionLink("Back to List", "Index")
+

@@ -5,10 +5,6 @@ VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerPhoneAPI", "CustomerPhoneAPI\CustomerPhoneAPI.csproj", "{E2441EA1-507D-4736-AF2C-B59CC1CF8296}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerPhoneAPI.Tests", "CustomerPhoneAPI.Tests\CustomerPhoneAPI.Tests.csproj", "{FE296A78-7B1C-4757-9F7E-AB3C611FAF24}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerPhoneDB", "CustomerPhoneDB\CustomerPhoneDB.csproj", "{173C79F3-5931-4110-8B67-894122DB085E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerDAL", "CustomerDBModel\CustomerDAL.csproj", "{6EABB244-F993-49CC-819A-DA41FF937C4F}"
 EndProject
 Global
@@ -21,14 +17,6 @@ Global
 		{E2441EA1-507D-4736-AF2C-B59CC1CF8296}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2441EA1-507D-4736-AF2C-B59CC1CF8296}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2441EA1-507D-4736-AF2C-B59CC1CF8296}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FE296A78-7B1C-4757-9F7E-AB3C611FAF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE296A78-7B1C-4757-9F7E-AB3C611FAF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE296A78-7B1C-4757-9F7E-AB3C611FAF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE296A78-7B1C-4757-9F7E-AB3C611FAF24}.Release|Any CPU.Build.0 = Release|Any CPU
-		{173C79F3-5931-4110-8B67-894122DB085E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{173C79F3-5931-4110-8B67-894122DB085E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{173C79F3-5931-4110-8B67-894122DB085E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{173C79F3-5931-4110-8B67-894122DB085E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6EABB244-F993-49CC-819A-DA41FF937C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6EABB244-F993-49CC-819A-DA41FF937C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EABB244-F993-49CC-819A-DA41FF937C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU

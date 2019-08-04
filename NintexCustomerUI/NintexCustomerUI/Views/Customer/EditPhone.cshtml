@@ -1,0 +1,52 @@
+﻿@using NintexCustomerUI.Models
+@model CustomerPhone
+@{
+    ViewData["Title"] = "Edit Phone Details";
+}
+
+<h2>Edit Phone Details</h2>
+@Html.ActionLink("Back To Details", "Detail", new { id = Model.Cust_ID })
+@using (Html.BeginForm())
+{
+    <div class="form-horizontal">
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <input type="hidden" name="id" value="@Model.Cust_ID" />
+                        <input type="hidden" name="phoneId" value="@Model.Cust_Phone_ID" />
+                        Phone Number :
+                    </td>
+                    <td>
+                        <input type="text" id="txtPhoneNumber" value="@Model.Phone_Number" name="phoneNumber" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Is Active :
+                    </td>
+                    <td>
+                        <select id="Status" name="Status">
+                            <option value="Yes">Yes</option>
+                            @if (Model.Active == false)
+                            {
+                                <option value="No" selected="selected">No</option>
+                            }
+                            else
+                            {
+                                <option value="No">No</option>
+                            }
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <div>
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+

@@ -1,0 +1,48 @@
+﻿@using NintexCustomerUI.Models
+@model CustomerPhone
+@{
+    ViewData["Title"] = "Add New Phone";
+}
+
+<h2>Add New Phone number</h2>
+
+@Html.ActionLink("Back To Details", "Detail", new { id = Model.Cust_ID })
+@using (Html.BeginForm())
+{
+    <div class="form-horizontal">
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        Customer Number :
+                    </td>
+                    <td>
+                        @Html.LabelFor(model => model.Cust_ID)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone Number :
+                    </td>
+                    <td>
+                        @Html.LabelFor(model => model.Phone_Number)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Is Active :
+                    </td>
+                    <td>
+                        @Html.CheckBoxFor(model => model.Active)
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <div>
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+

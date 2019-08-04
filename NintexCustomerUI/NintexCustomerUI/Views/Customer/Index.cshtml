@@ -1,0 +1,40 @@
+﻿@using NintexCustomerUI.Models
+@model List<Customer>
+@{
+    ViewData["Title"] = "Customer List";
+}
+
+<h2>Customer List</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Customer Id
+        </th>
+        <th>
+            Customer Name
+        </th>
+        <th>
+            Customer Phone No(,)
+        </th>
+        <th/>
+    </tr>
+
+    @foreach (var customer in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(x => customer.Cust_ID)
+            </td>
+            <td>
+                @Html.DisplayFor(x => customer.Cust_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(x => customer.PhoneList)
+            </td>
+            <td>
+                @Html.ActionLink("Detail", "Detail", new { id = customer.Cust_ID })
+            </td>
+        </tr>
+    }
+</table>  

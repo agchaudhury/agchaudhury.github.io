@@ -1,0 +1,42 @@
+﻿@using NintexCustomerUI.Models
+@model CustomerPhone
+@{
+    ViewData["Title"] = "Delete Phone Deatils";
+}
+
+<h2>Delete Phone</h2>
+
+@Html.ActionLink("Back To Details", "Detail", new { id = Model.Cust_ID })
+@using (Html.BeginForm())
+{
+    <div class="form-horizontal">
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <input type="hidden" name="id" value="@Model.Cust_ID" />
+                        <input type="hidden" name="phoneId" value="@Model.Cust_Phone_ID" />
+                        Phone Number :
+                    </td>
+                    <td>
+                        &nbsp; &nbsp; @Model.Phone_Number
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Is Active :
+                    </td>
+                    <td>
+                        @Model.Active
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <div>
+                <input type="submit" value="Delete" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
