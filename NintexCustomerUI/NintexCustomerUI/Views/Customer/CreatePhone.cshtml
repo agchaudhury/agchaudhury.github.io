@@ -9,23 +9,16 @@
 @Html.ActionLink("Back To Details", "Detail", new { id = Model.Cust_ID })
 @using (Html.BeginForm())
 {
+    @Html.HiddenFor(model => model.Cust_ID)
     <div class="form-horizontal">
         <div>
             <table>
                 <tr>
                     <td>
-                        Customer Number :
-                    </td>
-                    <td>
-                        @Html.LabelFor(model => model.Cust_ID)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         Phone Number :
                     </td>
                     <td>
-                        @Html.LabelFor(model => model.Phone_Number)
+                        @Html.TextBoxFor(model => model.Phone_Number, new { @Value = ""})
                     </td>
                 </tr>
                 <tr>

@@ -15,19 +15,19 @@ namespace CustomerPhoneAPI.Controllers
     {
         EmployeePhoneService customerService = new EmployeePhoneService();
 
-        // GET api/values
+        // GET api/CustomerPhone
         public IEnumerable<CustomerDetails> Get()
         {
             return customerService.GetCustomers();
         }
 
-        // GET api/values/5
-        public CustomerDetails Get(int id)
+        // GET api/CustomerPhone/5
+        public List<CustomerPhone> Get(int id)
         {
             return customerService.GetCustomer(id);
         }
 
-        // POST api/values
+        // POST api/CustomerPhone
         [ResponseType(typeof(CustomerDetails))]
         public IHttpActionResult Post(CustomerPhone custPhone)
         {
@@ -36,7 +36,7 @@ namespace CustomerPhoneAPI.Controllers
             return Ok(cust);
         }
 
-        // PUT api/values/5
+        // PUT api/CustomerPhone/5
         [ResponseType(typeof(CustomerDetails))]
         public IHttpActionResult Put(int id, CustomerPhone custPhone)
         {
@@ -45,17 +45,16 @@ namespace CustomerPhoneAPI.Controllers
             return Ok(cust);
         }
 
-        // DELETE api/values/5
+        // DELETE api/CustomerPhone/5
         [ResponseType(typeof(CustomerDetails))]
         public IHttpActionResult Delete(int id)
         {
-            CustomerPhone custPhone = customerService.GetPhonePerID(id);
             CustomerDetails cust = new CustomerDetails();
 
-            if (custPhone == null)
+            if (id == 0)
                 return NotFound();
 
-            cust = customerService.DeletePhoneNumberOfCustomer(custPhone);
+            cust = customerService.DeletePhoneNumberOfCustomer(id);
 
             return Ok(cust);
         }

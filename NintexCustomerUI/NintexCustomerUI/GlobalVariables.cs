@@ -13,8 +13,7 @@ namespace NintexCustomerUI
 
         static GlobalVariables()
         {
-            //WebApiClient.BaseAddress = new Uri("https://custphoneapi.azurewebsites.net/api/"); 
-            WebApiClient.BaseAddress = new Uri("http://localhost:56382/api/");
+            WebApiClient.BaseAddress = new Uri("https://custphoneapi.azurewebsites.net/api/"); 
             WebApiClient.DefaultRequestHeaders.Clear();
             WebApiClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }

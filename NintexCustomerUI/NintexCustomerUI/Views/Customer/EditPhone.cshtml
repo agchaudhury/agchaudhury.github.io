@@ -8,17 +8,17 @@
 @Html.ActionLink("Back To Details", "Detail", new { id = Model.Cust_ID })
 @using (Html.BeginForm())
 {
+    @Html.HiddenFor(model => model.Cust_Phone_ID)
+    @Html.HiddenFor(model => model.Cust_ID)
     <div class="form-horizontal">
         <div>
             <table>
                 <tr>
                     <td>
-                        <input type="hidden" name="id" value="@Model.Cust_ID" />
-                        <input type="hidden" name="phoneId" value="@Model.Cust_Phone_ID" />
                         Phone Number :
                     </td>
                     <td>
-                        <input type="text" id="txtPhoneNumber" value="@Model.Phone_Number" name="phoneNumber" />
+                        @Html.EditorFor(model => model.Phone_Number)
                     </td>
                 </tr>
                 <tr>
@@ -26,17 +26,7 @@
                         Is Active :
                     </td>
                     <td>
-                        <select id="Status" name="Status">
-                            <option value="Yes">Yes</option>
-                            @if (Model.Active == false)
-                            {
-                                <option value="No" selected="selected">No</option>
-                            }
-                            else
-                            {
-                                <option value="No">No</option>
-                            }
-                        </select>
+                        @Html.EditorFor(model => model.Active)
                     </td>
                 </tr>
             </table>

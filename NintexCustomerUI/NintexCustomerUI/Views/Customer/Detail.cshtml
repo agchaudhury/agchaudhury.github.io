@@ -1,12 +1,12 @@
 ﻿@using NintexCustomerUI.Models
-@model Customer
+@model List<CustomerPhone>
 @{
     ViewData["Title"] = "Customer Detail";
 }
 
-<h2>Customer Detail for @Model.Cust_Name</h2>
+<h2>Customer Details</h2>
 
-@Html.ActionLink("Create New", "CreatePhone", new { id = Model.Cust_ID })
+@Html.ActionLink("Create New", "CreatePhone", new { id = Model.FirstOrDefault().Cust_ID })
 
 <table class="table">
     <tr>
@@ -23,7 +23,7 @@
         <th/>
     </tr>
 
-    @foreach (var phone in Model.Cust_Phone)
+    @foreach (var phone in Model)
     {
         <tr>
             <td>
@@ -39,7 +39,7 @@
                 @Html.ActionLink("Edit", "EditPhone", new { id = phone.Cust_ID, phoneId = phone.Cust_Phone_ID })
             </td>
             <td>
-                @Html.ActionLink("Delete", "DeletePhone", new { id = phone.Cust_ID, phoneId = phone.Cust_Phone_ID })
+                @Html.ActionLink("Delete", "DeletePhone", new { id = phone.Cust_Phone_ID, cust_id = phone.Cust_ID })
             </td>
         </tr>
     }

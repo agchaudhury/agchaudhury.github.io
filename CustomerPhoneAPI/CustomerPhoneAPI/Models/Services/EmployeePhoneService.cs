@@ -24,12 +24,11 @@ namespace CustomerPhoneAPI.Models.Services
             return custList;
         }
 
-        public CustomerDetails GetCustomer(int id)
+        public List<CustomerPhone> GetCustomer(int id)
         {
-            var dataCust = db.Customers.FirstOrDefault(x => x.Cust_ID == id);
             var dataPhone = db.CustomerPhones.Where(x => x.Cust_ID == id).ToList();
 
-            return GetCustomerDetails(dataCust, dataPhone);
+            return dataPhone;
         }
 
         public CustomerPhone GetPhonePerID(int id)
@@ -53,7 +52,8 @@ namespace CustomerPhoneAPI.Models.Services
             var dataCust = db.Customers.FirstOrDefault(x => x.Cust_ID == custPhone.Cust_ID);
             var dataPhone = db.CustomerPhones.FirstOrDefault(x => x.Cust_Phone_ID == custPhone.Cust_Phone_ID);
 
-            db.Entry(custPhone).State = EntityState.Modified;
+            dataPhone.Phone_Number = custPhone.Phone_Number;
+            dataPhone.Active = custPhone.Active;
             db.SaveChanges();
 
             var newDataPhone = db.CustomerPhones.Where(x => x.Cust_ID == custPhone.Cust_ID).ToList();
@@ -61,14 +61,15 @@ namespace CustomerPhoneAPI.Models.Services
             return GetCustomerDetails(dataCust, newDataPhone);
         }
 
-        public CustomerDetails DeletePhoneNumberOfCustomer(CustomerPhone custPhone)
+        public CustomerDetails DeletePhoneNumberOfCustomer(int id)
         {
-            var dataCust = db.Customers.FirstOrDefault(x => x.Cust_ID == custPhone.Cust_ID);
+            var dataToDelete = db.CustomerPhones.FirstOrDefault(x => x.Cust_Phone_ID == id);
+            var dataCust = db.Customers.FirstOrDefault(x => x.Cust_ID == dataToDelete.Cust_ID);
 
-            db.CustomerPhones.Remove(custPhone);
+            db.CustomerPhones.Remove(dataToDelete);
             db.SaveChanges();
 
-            var dataPhone = db.CustomerPhones.Where(x => x.Cust_ID == custPhone.Cust_ID).ToList();
+            var dataPhone = db.CustomerPhones.Where(x => x.Cust_ID == dataCust.Cust_ID).ToList();
 
             return GetCustomerDetails(dataCust, dataPhone);
         }
