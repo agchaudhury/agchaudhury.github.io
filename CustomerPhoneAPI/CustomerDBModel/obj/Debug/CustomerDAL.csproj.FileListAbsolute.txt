@@ -5,7 +5,6 @@ C:\Users\arupc\Documents\GitHub\agchaudhury.github.io\CustomerPhoneAPI\CustomerD
 C:\Users\arupc\Documents\GitHub\agchaudhury.github.io\CustomerPhoneAPI\CustomerDBModel\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\arupc\Documents\GitHub\agchaudhury.github.io\CustomerPhoneAPI\CustomerDBModel\bin\Debug\EntityFramework.xml
 C:\Users\arupc\Documents\GitHub\agchaudhury.github.io\CustomerPhoneAPI\CustomerDBModel\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\arupc\Documents\GitHub\agchaudhury.github.io\CustomerPhoneAPI\CustomerDBModel\obj\Debug\CustomerDAL.csprojAssemblyReference.cache
 C:\Users\arupc\Documents\GitHub\agchaudhury.github.io\CustomerPhoneAPI\CustomerDBModel\obj\Debug\CustomerDAL.csproj.CoreCompileInputs.cache
 C:\Users\arupc\Documents\GitHub\agchaudhury.github.io\CustomerPhoneAPI\CustomerDBModel\obj\Debug\CustomerDAL.csproj.CopyComplete
 C:\Users\arupc\Documents\GitHub\agchaudhury.github.io\CustomerPhoneAPI\CustomerDBModel\obj\Debug\CustomerDBModel.dll

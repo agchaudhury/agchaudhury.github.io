@@ -71,6 +71,7 @@
     <Compile Include="CustomerPhone.cs">
       <DependentUpon>CustomerDBModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="DataContextConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

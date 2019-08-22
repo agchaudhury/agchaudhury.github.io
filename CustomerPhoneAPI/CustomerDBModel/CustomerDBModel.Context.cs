@@ -12,7 +12,8 @@ namespace CustomerDBModel
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    
+
+    [DbConfigurationType(typeof(DataContextConfiguration))]
     public partial class ArupTestDatabaseEntities : DbContext
     {
         public ArupTestDatabaseEntities()
