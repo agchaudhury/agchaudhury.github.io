@@ -1,0 +1,246 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\PayRollCalculation\\PayRollCalculation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\CSVOps\\CSVOps.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\CSVOps\\CSVOps.csproj",
+        "projectName": "CSVOps",
+        "projectPath": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\CSVOps\\CSVOps.csproj",
+        "packagesPath": "C:\\Users\\arupc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\CSVOps\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arupc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\LoggerService\\LoggerService.csproj": {
+                "projectPath": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\LoggerService\\LoggerService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\CSVStrategy\\CSVStrategy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\CSVStrategy\\CSVStrategy.csproj",
+        "projectName": "CSVStrategy",
+        "projectPath": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\CSVStrategy\\CSVStrategy.csproj",
+        "packagesPath": "C:\\Users\\arupc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\CSVStrategy\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arupc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\LoggerService\\LoggerService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\LoggerService\\LoggerService.csproj",
+        "projectName": "LoggerService",
+        "projectPath": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\LoggerService\\LoggerService.csproj",
+        "packagesPath": "C:\\Users\\arupc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\LoggerService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arupc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.5.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\PayRollCalculation\\PayRollCalculation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\PayRollCalculation\\PayRollCalculation.csproj",
+        "projectName": "PayRollCalculation",
+        "projectPath": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\PayRollCalculation\\PayRollCalculation.csproj",
+        "packagesPath": "C:\\Users\\arupc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\PayRollCalculation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arupc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\CSVOps\\CSVOps.csproj": {
+                "projectPath": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\CSVOps\\CSVOps.csproj"
+              },
+              "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\CSVStrategy\\CSVStrategy.csproj": {
+                "projectPath": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\CSVStrategy\\CSVStrategy.csproj"
+              },
+              "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\LoggerService\\LoggerService.csproj": {
+                "projectPath": "C:\\Users\\arupc\\source\\repos\\MYOBTest\\MYOB\\LoggerService\\LoggerService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

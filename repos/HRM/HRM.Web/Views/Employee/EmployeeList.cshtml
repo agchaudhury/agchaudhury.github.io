@@ -1,0 +1,206 @@
+﻿@using HRM.Web.Models.Helper;
+@model List<Employee>
+@{
+    ViewBag.Title = "Employee List";
+    List<Status> StatusList = (List<Status>)ViewBag.StatusList;
+    List<Department> DepartmentList = (List<Department>)ViewBag.DepartmentList;
+}
+
+<h2>Employee List</h2>
+
+<p>
+    <a class="btn-primary addedit" actionType="A" url="Employee\Create" >Add</a>
+</p>
+<table id="tblResources" class="tablesorter">
+    <thead>
+        <tr>
+            <th colspan="8" class="ts-pager1 form-horizontal">
+                <button type="button" class="btn first">
+                    <i class="icon-step-backward glyphicon glyphicon-step-backward"></i>
+                </button>
+                <button type="button" class="btn prev">
+                    <i class="icon-arrow-left glyphicon glyphicon-backward"></i>
+                </button>	<span class="pagedisplay"></span>
+                <!-- this can be any element, including an input -->
+                <button type="button" class="btn next">
+                    <i class="icon-arrow-right glyphicon glyphicon-forward"></i>
+                </button>
+                <button type="button" class="btn last">
+                    <i class="icon-step-forward glyphicon glyphicon-step-forward"></i>
+                </button>
+                <select class="pagesize input-mini" title="Select page size">
+                    <option selected="selected" value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="50">50</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                Resource Employee Number
+            </th>
+            <th>
+                Resource Name
+            </th>
+            <th>
+                Resource Date of Birth
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                Department Name
+            </th>
+            <th></th>
+        </tr>
+        </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                <a id="btnEdit" class="btn-link addedit" actionType="E" resourceId="@item.EID" url="Employee\Edit"> @Html.DisplayFor(modelItem => item.EID) </a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName) @Html.DisplayFor(modelItem => item.Surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfBirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => StatusList.FirstOrDefault(x => (x.StatusID == item.StatusID)).StatusName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => DepartmentList.FirstOrDefault(x => (x.DepartmentID == item.DepartmentID)).DepartmentName)
+            </td>
+            <td>
+                @using (Html.BeginForm("Delete", "Employee", new { id = item.EID }))
+                {
+                    <input type="submit" value="Delete" onclick="return confirm('Are you sure you want to delete record with ID = @item.EID')"/>
+                }
+            </td>
+        </tr>
+        }
+       
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="8" class="ts-pager1 form-horizontal">
+                <button type="button" class="btn first">
+                    <i class="icon-step-backward glyphicon glyphicon-step-backward"></i>
+                </button>
+                <button type="button" class="btn prev">
+                    <i class="icon-arrow-left glyphicon glyphicon-backward"></i>
+                </button>
+                <span class="pagedisplay"></span>
+                <button type="button" class="btn next">
+                    <i class="icon-arrow-right glyphicon glyphicon-forward"></i>
+                </button>
+                <button type="button" class="btn last">
+                    <i class="icon-step-forward glyphicon glyphicon-step-forward"></i>
+                </button>
+                <select class="" title="Select page size">
+                    <option selected="selected" value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="40">40</option>
+                    <option value="50">50</option>
+                </select>
+            </th>
+        </tr>
+    </tfoot>
+</table>
+
+<script type="text/javascript" src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var title = 'Add New Resource';
+        @if (Model.Count > 0)
+        {
+        <text>
+        $("#tblResources").tablesorter({
+            theme: "bootstrap",
+            widthFixed: true,
+            headerTemplate: '{content} {icon}',
+            widgets: ["uitheme", "filter", "zebra"],
+        })
+            .tablesorterPager({
+                container: $(".ts-pager1"),
+                cssGoto: ".pagenum",
+                output: '{startRow} - {endRow} / {filteredRows} ({totalRows})'
+            });
+        </text>
+        }
+
+        $(document).off('click', '.addedit');
+        $(document).on('click', '.addedit', function (evt) {
+            evt.preventDefault();
+            var url = $(this).attr("url");
+            var actionType = $(this).attr("actionType");
+            if (actionType == "E") {
+                title = 'Edit Resource'
+                url = url + "?resourceId=" + $(this).attr("resourceId");
+            }
+            $.colorbox({
+                href: url,
+                width: '1200',
+                height: 'auto',
+                title: title ,
+                onComplete: function () {
+                    $.colorbox.resize();
+                },
+                onCleanup: function () { }
+            });
+        });
+
+        $(document).off('click', '#btnCancel');
+        $(document).on("click", "#btnCancel", function () {
+            $.colorbox.close();
+        });
+
+        $(document).off('click', '#btnSave');
+        $(document).on("click", "#btnSave", function () {
+            debugger;
+            var eID = $("#txtResourceId").val();
+            var firstName = $("#txtResourceFirstName").val();
+            var lastName = $("#txtResourceLastName").val();
+            var dOB = $("#txtResourceDOB").val();
+            var email = $("#txtResourceEmail").val();
+            var status = $("#lstResourceStatus").val();
+            var departmentCode = $("#lstResourceDepartment").val();
+            var editFlag = 0;
+            if (title == "Edit Resource") {
+                editFlag = 1;
+            }
+            
+            var ajaxParams = {
+                eID: eID, firstName: firstName, lastName: lastName, dOB: dOB, email: email, status: status, departmentCode: departmentCode, editFlag: editFlag
+            };
+
+            var ajaxParams = JSON.stringify(ajaxParams);
+            $.ajax({
+                url: '@Url.Action("Add", "Employee")',
+                type: "POST",
+                contentType: "application/json;charset=utf-8",
+                data: ajaxParams,
+                dataType: "json",
+                beforeSend: function () {
+                },
+                success: function (data) {
+                    if (data.length > 0) {
+                        $.colorbox.resize();
+                    }
+                    else {
+                        $.colorbox.close();
+                        alert("Added/updated successfully")
+                    }
+                },
+                error: function (jqXhr) {
+                }
+            });
+        });
+    });
+</script>

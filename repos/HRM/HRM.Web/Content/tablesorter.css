@@ -1,0 +1,88 @@
+﻿/* Table sorter */
+table.tablesorter {
+    color: White;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    /*white-space: nowrap;*/
+    width: auto;
+}
+
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #006FC0;
+    border-color: #000000 #000000 #000000 #FFFFFF;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 10pt;
+    padding: 4px;
+}
+
+table.tablesorter thead tr .header, table.tablesorter thead tr .tablesorter-header {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #006FC0;
+    background-image: url(../images/buttons/unsorted_btn.png);
+    background-repeat: no-repeat;
+    border-color: #000000 #000000 #000000 #FFFFFF;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: White;
+    cursor: pointer;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 8px;
+}
+
+table.tablesorter tbody tr td {
+    background-color: #F0F0F0;
+    border-left: 1px solid #FFFFFF;
+    color: #000000;
+    font-weight: normal;
+    padding: 4px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+table.tablesorter tbody tr.odd td {
+    background-color: #D1D2D4;
+}
+
+table.tablesorter tbody tr.even td {
+    background-color: #F0F0F0;
+}
+
+
+table.tablesorter tbody tr.error {
+	background: #fcd1d1;
+	border: 1px solid #C00;
+}
+
+table.tablesorter tbody tr.error td {
+	background: #fcd1d1;
+}
+
+table.tablesorter thead tr .headerSortUp, table.tablesorter thead tr .sorter-false {
+    background-image: none;
+}
+
+table.tablesorter thead tr .headerSortUp, table.tablesorter thead tr .tablesorter-headerAsc {
+    background-image: url(../images/buttons/ascending_btn.png);
+}
+
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .tablesorter-headerDesc {
+    background-image: url(../images/buttons/descending_btn.png);
+}
+
+table.tablesorter tr.title td a:hover {
+    text-decoration: underline;
+}
+
+/* End Table sorter ---------------------------------------------------------------------*/

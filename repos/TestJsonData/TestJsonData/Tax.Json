@@ -1,0 +1,72 @@
+[
+ {
+   "Year": 2017,
+   "TaxIncomeLow": 0,
+   "TaxIncomeHigh": 18200,
+   "TaxAmount": 0,
+   "TaxPercent": 0
+ },
+ {
+   "Year": 2017,
+   "TaxIncomeLow": 18201,
+   "TaxIncomeHigh": 37000,
+   "TaxAmount": 0,
+   "TaxPercent": 19
+ },
+ {
+   "Year": 2017,
+   "TaxIncomeLow": 37001,
+   "TaxIncomeHigh": 87000,
+   "TaxAmount": 3572,
+   "TaxPercent": 32.5
+ },
+ {
+   "Year": 2017,
+   "TaxIncomeLow": 87001,
+   "TaxIncomeHigh": 180000,
+   "TaxAmount": 19822,
+   "TaxPercent": 37
+ },
+ {
+   "Year": 2017,
+   "TaxIncomeLow": 180001,
+   "TaxIncomeHigh": 999999,
+   "TaxAmount": 54232,
+   "TaxPercent": 45
+ },
+ {
+   "Year": 2018,
+   "TaxIncomeLow": 0,
+   "TaxIncomeHigh": 18200,
+   "TaxAmount": 0,
+   "TaxPercent": 0
+ },
+ {
+   "Year": 2018,
+   "TaxIncomeLow": 18201,
+   "TaxIncomeHigh": 37000,
+   "TaxAmount": 0,
+   "TaxPercent": 19
+ },
+ {
+   "Year": 2018,
+   "TaxIncomeLow": 37001,
+   "TaxIncomeHigh": 87000,
+   "TaxAmount": 3572,
+   "TaxPercent": 32.5
+ },
+ {
+   "Year": 2018,
+   "TaxIncomeLow": 87001,
+   "TaxIncomeHigh": 180000,
+   "TaxAmount": 19822,
+   "TaxPercent": 37
+ },
+ {
+   "Year": 2018,
+   "TaxIncomeLow": 180001,
+   "TaxIncomeHigh": 999999,
+   "TaxAmount": 54232,
+   "TaxPercent": 45
+ }
+]

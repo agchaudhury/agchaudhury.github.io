@@ -1,0 +1,6 @@
+{
+  "FilePath": "E:/PrimeTestMedian/Sample files",
+  "FilePreFix": "LP_*.*,TOU_*.*",
+  "FileExt": "*.csv",
+  "Delimiter": ","
+}

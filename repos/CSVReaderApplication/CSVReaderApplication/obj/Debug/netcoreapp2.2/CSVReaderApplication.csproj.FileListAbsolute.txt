@@ -1,0 +1,11 @@
+C:\Users\arupc\source\repos\CSVReaderApplication\CSVReaderApplication\bin\Debug\netcoreapp2.2\CSVReaderApplication.deps.json
+C:\Users\arupc\source\repos\CSVReaderApplication\CSVReaderApplication\bin\Debug\netcoreapp2.2\CSVReaderApplication.runtimeconfig.json
+C:\Users\arupc\source\repos\CSVReaderApplication\CSVReaderApplication\bin\Debug\netcoreapp2.2\CSVReaderApplication.runtimeconfig.dev.json
+C:\Users\arupc\source\repos\CSVReaderApplication\CSVReaderApplication\bin\Debug\netcoreapp2.2\CSVReaderApplication.dll
+C:\Users\arupc\source\repos\CSVReaderApplication\CSVReaderApplication\bin\Debug\netcoreapp2.2\CSVReaderApplication.pdb
+C:\Users\arupc\source\repos\CSVReaderApplication\CSVReaderApplication\obj\Debug\netcoreapp2.2\CSVReaderApplication.csprojAssemblyReference.cache
+C:\Users\arupc\source\repos\CSVReaderApplication\CSVReaderApplication\obj\Debug\netcoreapp2.2\CSVReaderApplication.csproj.CoreCompileInputs.cache
+C:\Users\arupc\source\repos\CSVReaderApplication\CSVReaderApplication\obj\Debug\netcoreapp2.2\CSVReaderApplication.AssemblyInfoInputs.cache
+C:\Users\arupc\source\repos\CSVReaderApplication\CSVReaderApplication\obj\Debug\netcoreapp2.2\CSVReaderApplication.AssemblyInfo.cs
+C:\Users\arupc\source\repos\CSVReaderApplication\CSVReaderApplication\obj\Debug\netcoreapp2.2\CSVReaderApplication.dll
+C:\Users\arupc\source\repos\CSVReaderApplication\CSVReaderApplication\obj\Debug\netcoreapp2.2\CSVReaderApplication.pdb

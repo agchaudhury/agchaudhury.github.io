@@ -1,0 +1,11 @@
+C:\Users\arupc\source\repos\TestConsole\TestConsole\bin\Debug\netcoreapp2.2\TestConsole.deps.json
+C:\Users\arupc\source\repos\TestConsole\TestConsole\bin\Debug\netcoreapp2.2\TestConsole.runtimeconfig.json
+C:\Users\arupc\source\repos\TestConsole\TestConsole\bin\Debug\netcoreapp2.2\TestConsole.runtimeconfig.dev.json
+C:\Users\arupc\source\repos\TestConsole\TestConsole\bin\Debug\netcoreapp2.2\TestConsole.dll
+C:\Users\arupc\source\repos\TestConsole\TestConsole\bin\Debug\netcoreapp2.2\TestConsole.pdb
+C:\Users\arupc\source\repos\TestConsole\TestConsole\obj\Debug\netcoreapp2.2\TestConsole.csprojAssemblyReference.cache
+C:\Users\arupc\source\repos\TestConsole\TestConsole\obj\Debug\netcoreapp2.2\TestConsole.csproj.CoreCompileInputs.cache
+C:\Users\arupc\source\repos\TestConsole\TestConsole\obj\Debug\netcoreapp2.2\TestConsole.AssemblyInfoInputs.cache
+C:\Users\arupc\source\repos\TestConsole\TestConsole\obj\Debug\netcoreapp2.2\TestConsole.AssemblyInfo.cs
+C:\Users\arupc\source\repos\TestConsole\TestConsole\obj\Debug\netcoreapp2.2\TestConsole.dll
+C:\Users\arupc\source\repos\TestConsole\TestConsole\obj\Debug\netcoreapp2.2\TestConsole.pdb

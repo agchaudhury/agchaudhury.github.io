@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Sfa.Core.Net.Http.Formatting" Version="3.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Files\CSVOutput\" />
+  </ItemGroup>
+
+</Project>

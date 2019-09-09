@@ -1,0 +1,92 @@
+﻿@using HRM.Web.Models.Helper;
+@model Employee
+@{
+    if (Model.EID != null)
+    {
+        ViewBag.Title = "Edit";
+    }
+    else
+    {
+        ViewBag.Title = "Create";
+    }
+    List<Status> StatusList = (List<Status>)ViewBag.StatusList;
+    List<Department> DepartmentList = (List<Department>)ViewBag.DepartmentList;
+}
+
+<div>
+    <table>
+        <tr>
+            <td>
+                Employee Number :
+            </td>
+            <td>
+                <input type="text" value="@Model.EID" id="txtResourceId" />
+            </td>
+            <td>
+                First Name :
+            </td>
+            <td>
+                <input type="text" value="@Model.FirstName" id="txtResourceFirstName" />
+            </td>
+            <td>
+                Surname :
+            </td>
+            <td>
+                <input type="text" value="@Model.Surname" id="txtResourceLastName" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date of Birth :
+            </td>
+            <td>
+                <input type="text" value="@Model.DateOfBirth" id="txtResourceDOB" />
+            </td>
+            <td>
+                Email :
+            </td>
+            <td>
+                <input type="text" value="@Model.Email" id="txtResourceEmail" />
+            </td>
+            <td>
+                Status :
+            </td>
+            <td>
+                <select id="lstResourceStatus">
+                    @foreach (Status status in StatusList)
+                    {
+                        <option value="@status.StatusID" @(status.StatusID == Model.StatusID ? " selected=\"selected\"" : "")>@status.StatusName</option>
+                    }
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Department :
+            </td>
+            <td>
+                <select id="lstResourceDepartment">
+                    @foreach (Department dept in DepartmentList)
+                    {
+                        <option value="@dept.DepartmentID" @(dept.DepartmentID == Model.DepartmentID ? " selected=\"selected\"" : "")>@dept.DepartmentName</option>
+                    }
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="button" value="Save"  id="btnSave" />
+            </td>
+            <td>
+                <input type="button" value="Cancel" id="btnCancel" />
+            </td>
+        </tr>
+    </table>
+
+</div>
+
+@section scripts{
+    @Scripts.Render("~/bundles/jqueryval");
+    }
+

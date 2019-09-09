@@ -1,0 +1,272 @@
+E:\Projects\HRM\HRM\HRM.Web\bin\HRM.Web.dll.config
+E:\Projects\HRM\HRM\HRM.Web\bin\HRM.Web.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\HRM.Web.pdb
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\csc.exe
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\csc.exe.config
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\csc.rsp
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\csi.exe
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\csi.exe.config
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\csi.rsp
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.AppContext.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Collections.Immutable.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Console.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.IO.Compression.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.IO.FileSystem.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.IO.Pipes.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Reflection.Metadata.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Security.AccessControl.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Security.Claims.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.ValueTuple.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Xml.XPath.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\vbc.exe
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\vbc.exe.config
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\vbc.rsp
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\VBCSCompiler.exe
+E:\Projects\HRM\HRM\HRM.Web\bin\roslyn\VBCSCompiler.exe.config
+E:\Projects\HRM\HRM\HRM.Web\bin\Antlr3.Runtime.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\Newtonsoft.Json.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Web.Helpers.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Web.Mvc.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Web.Optimization.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Web.Razor.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Web.WebPages.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Web.WebPages.Razor.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\WebActivatorEx.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\WebGrease.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Web.Helpers.xml
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Web.Mvc.xml
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Web.Razor.xml
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Web.WebPages.xml
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Web.WebPages.Razor.xml
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Web.Optimization.xml
+E:\Projects\HRM\HRM\HRM.Web\bin\Newtonsoft.Json.xml
+E:\Projects\HRM\HRM\HRM.Web\bin\Antlr3.Runtime.pdb
+E:\Projects\HRM\HRM\HRM.Web\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Projects\HRM\HRM\HRM.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Projects\HRM\HRM\HRM.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Projects\HRM\HRM\HRM.Web\obj\Debug\HRM.Web.csprojAssemblyReference.cache
+E:\Projects\HRM\HRM\HRM.Web\obj\Debug\HRM.Web.csproj.CoreCompileInputs.cache
+E:\Projects\HRM\HRM\HRM.Web\obj\Debug\HRM.Web.csproj.CopyComplete
+E:\Projects\HRM\HRM\HRM.Web\obj\Debug\HRM.Web.dll
+E:\Projects\HRM\HRM\HRM.Web\obj\Debug\HRM.Web.pdb
+E:\Projects\HRM\HRM\HRM.Web\bin\Unity.Abstractions.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\Unity.Container.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\Unity.Mvc.dll
+E:\Projects\HRM\HRM\HRM.Web\bin\Unity.Abstractions.pdb
+E:\Projects\HRM\HRM\HRM.Web\bin\Unity.Container.pdb
+E:\Projects\HRM\HRM\HRM.Web\bin\Unity.Mvc.pdb
+E:\Projects\HRM\HRM\HRM.Web\bin\Unity.Mvc.xml
+C:\Human Resource\HRM\HRM.Web\bin\HRM.Web.dll.config
+C:\Human Resource\HRM\HRM.Web\bin\HRM.Web.dll
+C:\Human Resource\HRM\HRM.Web\bin\HRM.Web.pdb
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\csc.exe
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\csc.exe.config
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\csc.rsp
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\csi.exe
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\csi.exe.config
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\csi.rsp
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.AppContext.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Console.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.IO.Compression.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Security.Claims.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.ValueTuple.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\vbc.exe
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\vbc.exe.config
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\vbc.rsp
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\VBCSCompiler.exe
+C:\Human Resource\HRM\HRM.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Human Resource\HRM\HRM.Web\bin\Antlr3.Runtime.dll
+C:\Human Resource\HRM\HRM.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Human Resource\HRM\HRM.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Human Resource\HRM\HRM.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Human Resource\HRM\HRM.Web\bin\Newtonsoft.Json.dll
+C:\Human Resource\HRM\HRM.Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Human Resource\HRM\HRM.Web\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Human Resource\HRM\HRM.Web\bin\System.Web.Helpers.dll
+C:\Human Resource\HRM\HRM.Web\bin\System.Web.Mvc.dll
+C:\Human Resource\HRM\HRM.Web\bin\System.Web.Optimization.dll
+C:\Human Resource\HRM\HRM.Web\bin\System.Web.Razor.dll
+C:\Human Resource\HRM\HRM.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Human Resource\HRM\HRM.Web\bin\System.Web.WebPages.dll
+C:\Human Resource\HRM\HRM.Web\bin\System.Web.WebPages.Razor.dll
+C:\Human Resource\HRM\HRM.Web\bin\Unity.Abstractions.dll
+C:\Human Resource\HRM\HRM.Web\bin\Unity.Container.dll
+C:\Human Resource\HRM\HRM.Web\bin\Unity.Mvc.dll
+C:\Human Resource\HRM\HRM.Web\bin\WebActivatorEx.dll
+C:\Human Resource\HRM\HRM.Web\bin\WebGrease.dll
+C:\Human Resource\HRM\HRM.Web\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Human Resource\HRM\HRM.Web\bin\System.Web.Helpers.xml
+C:\Human Resource\HRM\HRM.Web\bin\System.Web.Mvc.xml
+C:\Human Resource\HRM\HRM.Web\bin\System.Web.Razor.xml
+C:\Human Resource\HRM\HRM.Web\bin\System.Web.WebPages.xml
+C:\Human Resource\HRM\HRM.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Human Resource\HRM\HRM.Web\bin\System.Web.WebPages.Razor.xml
+C:\Human Resource\HRM\HRM.Web\bin\System.Web.Optimization.xml
+C:\Human Resource\HRM\HRM.Web\bin\Newtonsoft.Json.xml
+C:\Human Resource\HRM\HRM.Web\bin\Unity.Abstractions.pdb
+C:\Human Resource\HRM\HRM.Web\bin\Unity.Container.pdb
+C:\Human Resource\HRM\HRM.Web\bin\Unity.Mvc.pdb
+C:\Human Resource\HRM\HRM.Web\bin\Unity.Mvc.xml
+C:\Human Resource\HRM\HRM.Web\bin\Antlr3.Runtime.pdb
+C:\Human Resource\HRM\HRM.Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Human Resource\HRM\HRM.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Human Resource\HRM\HRM.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Human Resource\HRM\HRM.Web\obj\Debug\HRM.Web.csprojAssemblyReference.cache
+C:\Human Resource\HRM\HRM.Web\obj\Debug\HRM.Web.csproj.CoreCompileInputs.cache
+C:\Human Resource\HRM\HRM.Web\obj\Debug\HRM.Web.csproj.CopyComplete
+C:\Human Resource\HRM\HRM.Web\obj\Debug\HRM.Web.dll
+C:\Human Resource\HRM\HRM.Web\obj\Debug\HRM.Web.pdb
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\HRM.Web.dll.config
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\HRM.Web.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\HRM.Web.pdb
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\csc.exe
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\csc.exe.config
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\csc.rsp
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\csi.exe
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\csi.exe.config
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\csi.rsp
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.AppContext.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Console.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\vbc.exe
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\vbc.exe.config
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\vbc.rsp
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Antlr3.Runtime.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Newtonsoft.Json.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Web.Helpers.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Web.Mvc.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Web.Optimization.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Web.Razor.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Web.WebPages.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Unity.Abstractions.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Unity.Container.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Unity.Mvc.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\WebActivatorEx.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\WebGrease.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Web.Helpers.xml
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Web.Mvc.xml
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Web.Razor.xml
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Web.WebPages.xml
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Web.Optimization.xml
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Newtonsoft.Json.xml
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Unity.Abstractions.pdb
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Unity.Container.pdb
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Unity.Mvc.pdb
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Unity.Mvc.xml
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Antlr3.Runtime.pdb
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\arupc\source\repos\HRM\HRM.Web\obj\Debug\HRM.Web.csprojAssemblyReference.cache
+C:\Users\arupc\source\repos\HRM\HRM.Web\obj\Debug\HRM.Web.csproj.CoreCompileInputs.cache
+C:\Users\arupc\source\repos\HRM\HRM.Web\obj\Debug\HRM.Web.csproj.CopyComplete
+C:\Users\arupc\source\repos\HRM\HRM.Web\obj\Debug\HRM.Web.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\obj\Debug\HRM.Web.pdb
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\arupc\source\repos\HRM\HRM.Web\bin\System.Net.Http.Formatting.xml

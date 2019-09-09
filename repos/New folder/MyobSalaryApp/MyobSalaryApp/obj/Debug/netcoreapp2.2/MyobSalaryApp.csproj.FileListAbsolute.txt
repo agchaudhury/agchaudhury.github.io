@@ -1,0 +1,8 @@
+C:\Users\arupc\source\repos\New folder\MyobSalaryApp\MyobSalaryApp\bin\Debug\netcoreapp2.2\MyobSalaryApp.deps.json
+C:\Users\arupc\source\repos\New folder\MyobSalaryApp\MyobSalaryApp\bin\Debug\netcoreapp2.2\MyobSalaryApp.runtimeconfig.json
+C:\Users\arupc\source\repos\New folder\MyobSalaryApp\MyobSalaryApp\bin\Debug\netcoreapp2.2\MyobSalaryApp.runtimeconfig.dev.json
+C:\Users\arupc\source\repos\New folder\MyobSalaryApp\MyobSalaryApp\bin\Debug\netcoreapp2.2\MyobSalaryApp.dll
+C:\Users\arupc\source\repos\New folder\MyobSalaryApp\MyobSalaryApp\obj\Debug\netcoreapp2.2\MyobSalaryApp.csprojAssemblyReference.cache
+C:\Users\arupc\source\repos\New folder\MyobSalaryApp\MyobSalaryApp\obj\Debug\netcoreapp2.2\MyobSalaryApp.csproj.CoreCompileInputs.cache
+C:\Users\arupc\source\repos\New folder\MyobSalaryApp\MyobSalaryApp\obj\Debug\netcoreapp2.2\MyobSalaryApp.AssemblyInfoInputs.cache
+C:\Users\arupc\source\repos\New folder\MyobSalaryApp\MyobSalaryApp\obj\Debug\netcoreapp2.2\MyobSalaryApp.AssemblyInfo.cs

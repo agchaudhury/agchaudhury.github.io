@@ -1,0 +1,14 @@
+C:\Users\arupc\source\repos\TestApi\TestApi\bin\Debug\netcoreapp2.2\TestApi.deps.json
+C:\Users\arupc\source\repos\TestApi\TestApi\bin\Debug\netcoreapp2.2\TestApi.runtimeconfig.json
+C:\Users\arupc\source\repos\TestApi\TestApi\bin\Debug\netcoreapp2.2\TestApi.runtimeconfig.dev.json
+C:\Users\arupc\source\repos\TestApi\TestApi\bin\Debug\netcoreapp2.2\TestApi.dll
+C:\Users\arupc\source\repos\TestApi\TestApi\bin\Debug\netcoreapp2.2\TestApi.pdb
+C:\Users\arupc\source\repos\TestApi\TestApi\obj\Debug\netcoreapp2.2\TestApi.csprojAssemblyReference.cache
+C:\Users\arupc\source\repos\TestApi\TestApi\obj\Debug\netcoreapp2.2\TestApi.csproj.CoreCompileInputs.cache
+C:\Users\arupc\source\repos\TestApi\TestApi\obj\Debug\netcoreapp2.2\TestApi.RazorAssemblyInfo.cache
+C:\Users\arupc\source\repos\TestApi\TestApi\obj\Debug\netcoreapp2.2\TestApi.RazorAssemblyInfo.cs
+C:\Users\arupc\source\repos\TestApi\TestApi\obj\Debug\netcoreapp2.2\TestApi.AssemblyInfoInputs.cache
+C:\Users\arupc\source\repos\TestApi\TestApi\obj\Debug\netcoreapp2.2\TestApi.AssemblyInfo.cs
+C:\Users\arupc\source\repos\TestApi\TestApi\obj\Debug\netcoreapp2.2\TestApi.RazorTargetAssemblyInfo.cache
+C:\Users\arupc\source\repos\TestApi\TestApi\obj\Debug\netcoreapp2.2\TestApi.dll
+C:\Users\arupc\source\repos\TestApi\TestApi\obj\Debug\netcoreapp2.2\TestApi.pdb
